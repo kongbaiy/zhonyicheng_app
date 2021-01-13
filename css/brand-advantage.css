@@ -1,0 +1,302 @@
+.advertising-img {
+	width: 100%;
+}
+
+.preponderance {
+	overflow: hidden;
+	padding: 0.35rem 0;
+}
+
+.preponderance-list {
+	overflow: hidden;
+	margin: 0.14rem 0.05rem 0;
+}
+
+.preponderance-list-item {
+	float: left;
+	box-sizing: border-box;
+	padding: 0.24rem 0.15rem;
+	width: 50%;
+	background-image: url(../imgs/preponderance_item_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+
+.preponderance-list-itemImg {
+	width: 0.5rem;
+	height: 0.5rem;
+}
+
+.preponderance-list-itemTitle {
+	position: relative;
+	margin-top: 0.18rem;
+	padding-bottom: 0.1rem;
+	font-size: 0.15rem;
+	font-family: Source Han Sans CN;
+	font-weight: 700;
+	line-height: 0.18rem;
+	color: #262626;
+}
+
+.preponderance-list-itemTitle::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0.25rem;
+	height: 0.01rem;
+	background-color: #262626;
+}
+
+.preponderance-list-itemText {
+	margin-top: 0.1rem;
+	font-size: 0.11rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.19rem;
+	color: #999;
+}
+
+.contact-info {
+	padding: 0.25rem 0.1rem;
+	background-image: url(../imgs/contact_info_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+
+.contact-info-title {
+	font-size: 0.24rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	color: #fff;
+}
+
+.contact-info-text {
+	margin-top: 0.06rem;
+	font-size: 0.1rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.17rem;
+	color: #fff;
+}
+
+.contact-info-btn, .Joining-process-getBtn {
+	width: 2rem;
+	height: 0.35rem;
+	border: 1px solid #fff;
+	border-radius: 0.175rem;
+	font-size: 0.16rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	line-height: 0.35rem;
+	color: #fff;
+}
+
+.contact-info-btn {
+	margin-top: 0.16rem;
+}
+
+.contact-info-icon {
+	margin-right: 0.1rem;
+	position: relative;
+	top: 0.02rem;
+	width: 0.18rem;
+}
+
+.support {
+	padding: 0.35rem 0 0.26rem;
+}
+
+.support-nav {
+	margin-top: 0.2rem;
+}
+
+.support-nav-item {
+	width: 1.25rem;
+	height: 0.35rem;
+	border: 1px solid #ccc;
+	border-radius: 0.04rem;
+	font-size: 0.14rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.35rem;
+	text-align: center;
+	color: #262626;
+}
+
+.support-nav-item:first-child {
+	margin-right: 0.4rem;
+}
+
+.support-nav-item_active {
+	border-color: #DA3021;
+	background-color: #DA3021;
+	color: #fff;
+}
+
+.support_ad-imgBox {
+	margin-top: 0.2rem;
+	padding: 0 0.13rem;
+}
+
+.support_ad-img {
+	width: 100%;
+}
+
+.support-listBox {
+	overflow: hidden;
+}
+
+.support-list {
+	overflow: hidden;
+	margin-top: 0.21rem;
+	padding: 0 0.13rem;
+}
+
+.support-list-item {
+	padding-left: 0.24rem;
+	background-image: url(../imgs/20-20.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 0.14rem auto;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.22rem;
+	color: #262626;
+}
+
+.support-list-item:nth-child(n + 2) {
+	margin-top: 0.16rem;
+}
+
+.Join-application {
+	overflow: hidden;
+	padding: 0.35rem 0 0;
+	background-image: url(../imgs/750-1096.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.form {
+	margin: 0.2rem 0.23rem 0.5rem;
+	padding: 0.25rem;
+	background-color: rgba(255,255,255,0.9);
+}
+
+.select, .select-2 {
+	position: relative;
+	padding: 0 0.08rem;
+	height: 0.38rem;
+	background-color: #fff;
+	border-radius: 0.08rem;
+}
+
+.select-input {
+	flex: 1;
+	padding-left: 0.02rem;
+	height: 100%;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #262626;
+}
+
+.bottom-arrow-icon {
+	transition: all 200ms linear;
+	width: 0.13rem;
+}
+
+.select:hover .bottom-arrow-icon, .select-2:hover .bottom-arrow-icon {
+	transform: rotate(-180deg);
+}
+
+.select-drop-downList {
+	display: none;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	position: absolute;
+	top: 0.42rem;
+	left: 0;
+	z-index: 9;
+	width: 100%;
+	max-height: 3rem;
+	background-color: #fff;
+	border-radius: 0.08rem;
+}
+
+.select-drop-downListItem {
+	padding: 0 0.1rem;
+	height: 0.38rem;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.38rem;
+	color: rgba(38,38,38, 0.6);
+}
+
+.select:hover .select-drop-downList{
+	display: block;
+}
+
+.select-2:hover .select-drop-downList{
+	display: block;
+}
+
+.form-cell {
+	margin-top: 0.1rem;
+}
+
+
+.select-2{
+	box-sizing: border-box;
+	width: 1.35rem;
+}
+
+.select-2 .select-input {
+	width: 1.06rem;
+}
+
+.form-input {
+	margin-top: 0.1rem;
+	padding: 0 0.1rem;
+	box-sizing: border-box;
+	width: 100%;
+	height: 0.38rem;
+	background-color: #fff;
+	border-radius: 0.08rem;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #262626;
+}
+
+.form-input::placeholder, .form-textarea::placeholder {
+	color: #999;
+}
+
+.form-textareaBox {
+	margin-top: 0.1rem;
+	padding: 0.14rem 0.1rem;
+	background-color: #fff;
+	border-radius: 0.08rem;
+}
+
+.form-textarea {
+	width: 100%;
+	height: 0.72rem;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #262626;
+}
+
+.form-submit-btn {
+	margin-top: 0.15rem;
+}

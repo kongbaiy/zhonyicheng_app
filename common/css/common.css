@@ -1,0 +1,238 @@
+@supports (bottom: env(safe-area-inset-bottom)) {
+	body {
+		padding-bottom: env(safe-area-inset-bottom);
+	}
+}
+
+.c-f-d{
+	display: flex;
+	display: -webkit-flex;
+}
+
+.c-f-dc{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	-webkit-align-items: center;
+}
+
+
+.c-f-cc{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.c-f-cb{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.c-f-ca{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.c-fColumn-cc{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.c-fColumn{
+	display: flex;
+	flex-direction: column;
+}
+
+.c-fColumn-cd{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.c-fColumn-dc{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.c-fColumn-ce{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+/* 1rem/100px */
+.c-left-arrowIcon {
+	width: 0.09rem;
+	height: 0.15rem;
+}
+
+.c-address-iconT1 {
+	margin-right: 0.05rem;
+	width: 0.1rem;
+}
+
+.c-text-over_clamp-1{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.c-text-over_clamp-2{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+
+.c-text-over_clamp-4{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+}
+
+.c-text-over_clamp-5{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 5;
+	overflow: hidden;
+}
+
+.c-btn_38 {
+	width: 100%;
+	height: 0.38rem;
+	background-color: #E60012;
+	border-radius: 0.08rem;
+	font-size: 0.14rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.38rem;
+	color: #fff;
+}
+
+.c-module-titleT1, .c-module-titleT2 {
+	position: relative;
+	padding-bottom: 0.08rem;
+	font-size: 0.20rem;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	text-align: center;
+}
+
+.c-module-titleT1 {
+	color: #262626;
+}
+
+.c-module-titleT2 {
+	color: #fff;
+}
+
+.c-module-titleT1::after, .c-module-titleT2::after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0.5rem;
+	height: 0.01rem;
+}
+
+.c-module-titleT1::after {
+	background-color: #262626;
+}
+
+.c-module-titleT2::after {
+	background-color: #fff;
+}
+
+.c-module-titleT1_english, .c-module-titleT2_english{
+	margin-top: 0.1rem;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	text-align: center;
+	text-transform: Uppercase;
+}
+
+.c-module-titleT1_english {
+	color: #999;
+}
+
+.c-module-titleT2_english {
+	color: #fff;
+}
+
+/* button */
+.c-btn-t1 {
+	height: 0.45rem;
+	background-color: #A71A20;
+	border-radius: 0.225rem;
+	-webkit-border-radius: 0.225rem;
+	-moz-border-radius: 0.225rem;
+	-ms-border-radius: 0.225rem;
+	-o-border-radius: 0.225rem;
+	font-size: 0.16rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.45rem;
+	text-align: center;
+	color: #fff;
+}
+
+.c-btn-t2 {
+	height: 0.45rem;
+	background-color: #DA3021;
+	border-radius: 0.08rem;
+	-webkit-border-radius: 0.08rem;
+	-moz-border-radius: 0.08rem;
+	-ms-border-radius: 0.08rem;
+	-o-border-radius: 0.08rem;
+	font-size: 0.16rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.45rem;
+	text-align: center;
+	color: #fff;
+}
+
+
+.c-pagingT1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.2rem 0.23rem;
+}
+
+.c-pagingT1-next, 
+.c-pagingT1-page, 
+.c-pagingT1-prev {
+    width: 1.1rem;
+    height: 0.35rem;
+    font-size: 0.14rem;
+    font-family: Source Han Sans SC;
+    font-weight: 400;
+    text-align: center;
+    line-height: 0.35rem;
+}
+
+.c-pagingT1-next {
+    border: 1px solid #E6E6E6;
+    background-color: #E6E6E6;
+    color: #262626;
+}
+
+.c-pagingT1-page {
+    border: 1px solid #E6E6E6;
+}
+
+.c-pagingT1-prev {
+    border: 1px solid #DA3021;
+    background-color: #DA3021;
+    color: #fff;
+}

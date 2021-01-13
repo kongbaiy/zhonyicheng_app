@@ -1,0 +1,189 @@
+.title {
+    margin-top: 0.25rem;
+    padding: 0 0.13rem;
+    font-size: 0.2rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.34rem;
+    color: #262626;
+}
+
+.publish-time {
+    padding: 0 0.13rem;
+    font-size: 0.12rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.11rem;
+    color: #999;
+}
+
+/* 文章内容 */
+.content {
+    overflow: hidden;
+    margin: 0 0.13rem;
+    padding: 0.2rem 0;
+}
+
+.content-text {
+    margin-top: 0.2rem;
+    font-size: 0.14rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.24rem;
+    color: #262626;
+}
+
+.content-img {
+    display: block;
+    margin: 0.2rem auto 0;
+    max-width: 100%;
+}
+
+.more {
+    margin-top: 0.35rem;
+}
+
+.more-item {
+    padding: 0 0.1rem;
+    height: 0.3rem;
+    background-color: #F0F0F0;
+    line-height: 0.3rem;
+}
+
+.more-item a{
+    font-size: 0.14rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.3rem;
+    color: #666;
+}
+
+.more-item:nth-child(n + 2) {
+    margin-top: 0.15rem;
+}
+
+/* 品牌加盟 */
+.brand {
+    padding: 0.35rem 0.1rem 0.26rem 0.1rem;
+    background-image: url(../imgs/750-1405.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.brand-list {
+    margin-top: 0.14rem;
+}
+
+.brand-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-bottom: 0.1rem;
+    padding: 0.1rem 0.24rem;
+    min-height: 1.18rem;
+    background-color: #fff;
+    border-radius: 0.08rem;
+    -webkit-border-radius: 0.08rem;
+    -moz-border-radius: 0.08rem;
+    -ms-border-radius: 0.08rem;
+    -o-border-radius: 0.08rem;
+}
+
+.brand-list-itemIcon {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.brand-list-itemInfo {
+	flex: 1;
+    margin-left: 0.24rem;
+    padding-left: 0.18rem;
+    border-left: 1px solid #262626;
+}
+
+.brand-list-itemTitle {
+    font-size: 0.14rem;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    line-height: 0.24rem;
+    color: #262626;
+}
+
+.brand-list-itemText {
+    margin-top: 0.1rem;
+    font-size: 0.1rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.18rem;
+    color: #262626;
+}
+
+/* 相关文章 */
+.related-articles {
+    padding: 0.25rem 0.13rem 0.5rem;
+}
+
+.related-articles-item {
+    overflow: hidden;
+    padding: 0.2rem 0;
+    border-bottom: 1px solid #E6E6E6;
+
+}
+
+.related-articles-cell {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.related-articles-title {
+    font-size: 0.16rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #404040;
+}
+
+.related-articles-more {
+    font-size: 0.13rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #999999;
+}
+
+.related-articles-itemTitle {
+    font-size: 0.16rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #404040;
+}
+
+.related-articles-itemText {
+    position: relative;
+    margin-top: 0.1rem;
+    padding-bottom: 0.18rem;
+    height: 0.36rem;
+    font-size: 0.13rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #999;
+}
+
+.related-articles-itemText::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0.2rem;
+    height: 1px;
+    background-color: #999;
+}
+
+.related-articles-itemDate {
+    margin-top: 0.1rem;
+    font-size: 12px;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 8px;
+}

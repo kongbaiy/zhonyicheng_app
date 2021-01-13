@@ -1,0 +1,335 @@
+.banner {
+    height: 6.03rem;
+}
+
+.banner-slide {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.25rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-slide-title {
+    position: relative;
+    padding-bottom: 0.2rem;
+    font-size: 0.18rem;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #fff;
+}
+
+.banner-slide-title::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0.6rem;
+    height: 0.02rem;
+    background-color: #fff;
+}
+
+.banner-slide-text {
+    margin-top: 0.2rem;
+    font-size: 0.11rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.25rem;
+    color: #fff;
+}
+
+.banner-slide-btn {
+    margin-top: 0.35rem;
+    width: 1.4rem;
+    height: 0.35rem;
+    border: 1px solid #fff;
+    font-size: 0.12rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.11rem;
+    color: #fff;
+}
+
+.banner-slide-ul {
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+.banner-slide-li {
+    float: left;
+    margin-right: 15px;
+}
+
+.banner-slide-liImg {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.banner .swiper-pagination {
+    bottom: 0.25rem;
+}
+
+.banner .swiper-pagination-bullet {
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #fff;
+    opacity: 1;
+}
+
+.banner .swiper-pagination-bullet-active {
+    background-color: #A71A20;
+}
+
+/* 动态 */
+.dynamic {
+    display: flex;
+    align-items: center;
+    padding: 0.2rem 0.13rem;
+}
+
+.dynamic-title {
+    display: flex;
+    align-items: center;
+    font-size: 0.13rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #A71A20;
+}
+
+.dynamic-icon {
+    margin-right: 0.05rem;
+    width: 0.15rem;
+    height: 0.15rem;
+}
+
+.dynamic-swiper {
+    flex: 1;
+    margin-left: 0.1rem;
+    height: 0.16rem;
+}
+
+.dynamic-swiper-slide {
+    font-size: 0.13rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #999;
+}
+
+/* 关于我们 */
+.about-us {
+    padding: 0.35rem 0.13rem;
+    background-color: #F7F7F7;
+}
+
+.video-box {
+    position: relative;
+    margin-top: 0.2rem;
+    height: 2.25rem;
+}
+
+.video-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.65);
+}
+
+.video-box video {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.video-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.about-us-text {
+    margin-top: 0.05rem;
+    font-size: 0.12rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.21rem;
+    text-indent: 0.24rem;
+    color: #666;
+}
+
+.about-us-text span {
+    font-weight: bold;
+    color: #262626;
+}
+
+.about-us-text:nth-last-of-type(3) {
+    margin-top: 0.15rem;
+}
+
+.more-link {
+    display: flex;
+    align-items: center;
+    margin-top: 0.25rem;
+}
+
+.more-link-english {
+    font-size: 0.14rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #262626;
+}
+
+.more-link-wire {
+    margin: 0 0.1rem;
+    width: 0.5rem;
+    height: 1px;
+    background-color: #262626;
+}
+
+.more-link-icon {
+    width: 0.28rem;
+}
+
+/* 经典案例 */
+.case {
+    padding: 0.35rem 0.13rem;
+}
+
+.case-nav {
+    overflow: hidden;
+    margin-top: 0.2rem;
+}
+
+.case-nav-item {
+    float: left;
+    width: 0.8rem;
+    height: 0.3rem;
+    background-color: #E6E6E6;
+    font-size: 0.13rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.3rem;
+    text-align: center;
+    color: #262626;
+}
+
+.case-nav-item:nth-child(n + 2) {
+    margin-left: 0.096rem;
+}
+
+.case-nav-item_active {
+    background-color: #A71A20;
+    color: #fff;
+}
+
+.case-list {
+    margin-top: 0.2rem;
+}
+
+
+.case-list-item {
+    background-color: #F7F7F7;
+}
+
+.case-list-item:nth-child(n + 2) {
+    margin-top: 0.15rem;
+}
+
+.case-list-itemImg {
+    width: 100%;
+    height: 2.25rem;
+    object-fit: cover;
+}
+
+.case-list-itemInfo {
+    padding: 0.15rem 0.1rem 0.18rem;
+}
+
+.case-list-itemTitle {
+    font-size: 0.15rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #262626;
+}
+
+.case-list-itemText {
+    margin-top: 0.1rem;
+    font-size: 0.12rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #999;
+}
+
+.case-more-btn {
+    margin-top: 0.35rem;
+    width: 100%;
+}
+
+/* 公司业务 */
+.company-business {
+    padding: 0.35rem 0.13rem;
+    background-color: #F7F7F7;
+}
+
+.company-business-swiper {
+    margin-top: 0.2rem;
+    height: 3.92rem;
+}
+
+.company-business-swiper .swiper-slide {
+    font-size: 0;
+}
+
+.company-business-swiper .swiper-pagination {
+    bottom: 0;
+}
+
+.company-business-swiper .swiper-pagination-bullet {
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #999;
+    opacity: 1;
+}
+
+.company-business-swiper .swiper-pagination-bullet-active {
+    background-color: #A71A20;
+}
+
+.company-business-swiperImg {
+    width: 100%;
+    height: 2.25rem;
+    object-fit: cover;
+}
+
+.company-business-swiperInfo {
+    padding: 0.18rem 0.15rem 0.2rem;
+    background-color: #fff;
+}
+
+.company-business-swiperTitle {
+    position: relative;
+    padding-bottom: 0.1rem;
+    border-bottom: 1px solid #E6E6E6;
+    font-size: 0.17rem;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #262626;
+}
+
+.company-business-swiperText {
+    margin-top: 0.1rem;
+    font-size: 0.14rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.25rem;
+    color: #666666;
+}

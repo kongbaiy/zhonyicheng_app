@@ -1,0 +1,121 @@
+.advertising-img {
+    width: 100%;
+}
+
+/* 搜索框 */
+.search-inputBox {
+    display: flex;
+    align-items: center;
+    margin: 0.2rem 0.13rem;
+    padding: 0 0.15rem;
+    height: 0.4rem;
+    background-color: #F0F0F0;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.search-input-icon {
+    margin-right: 0.05rem;
+    width: 0.19rem;
+}
+
+.search-input {
+    flex: 1;
+    background-color: transparent;
+    font-size: 0.13rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #333;
+}
+
+.search-input::placeholder {
+    color: #999;
+}
+
+/* 导航 */
+.nav {
+    margin: 0 0.13rem;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.nav-item {
+    float: left;
+    margin-right: 0.09rem;
+    width: 0.8rem;
+    height: 0.35rem;
+    background-color: #E6E6E6;
+    font-size: 0.13rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.35rem;
+    text-align: center;
+    color: #262626;
+}
+
+.nav-item_active {
+    background-color: #DA3021;
+    color: #fff;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+/* 列表 */
+.listT1, 
+.listT2 {
+    overflow: hidden;
+    margin: 0.2rem 0.13rem 0;
+}
+
+.listT1-item {
+    margin-bottom: 0.15rem;
+    background-color: #F7F7F7;
+}
+
+.listT1-item-img {
+    width: 100%;
+    height: 2.25rem;
+    object-fit: cover;
+}
+
+.listT1-item-text {
+    height: 0.5rem;
+    font-size: 0.18rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.5rem;
+    text-align: center;
+    color: #262626;
+}
+
+.listT2-item {
+    float: left;
+    margin-bottom: 0.3rem;
+    width: 1.7rem;
+    background-color: #F7F7F7;
+}
+
+.listT2-item:nth-child(2n + 1) {
+    margin-right: 0.09rem;
+}
+
+.listT2-item-img {
+    width: 100%;
+    height: 1.3rem;
+    object-fit: cover;
+}
+
+.listT2-item-text {
+    height: 0.35rem;
+    font-size: 0.12rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.35rem;
+    text-align: center;
+    color: #262626;
+}

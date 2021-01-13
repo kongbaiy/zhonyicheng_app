@@ -1,0 +1,98 @@
+.content {
+    overflow: hidden;
+    min-height: calc(100vh - 2rem);
+}
+
+.banner-swiper-container {
+    height: 4.35rem;
+}
+
+.banner-swiper-slideImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-swiper-page {
+    position: absolute;
+    right: 0.15rem;
+    bottom: 0.15rem;
+    z-index: 9;
+    padding: 0 0.08rem;
+    height: 0.2rem;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 0.2rem;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    -o-border-radius: 0.2rem;
+    font-size: 0.12rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    line-height: 0.2rem;
+    color: #FFFFFF;
+}
+
+.banner-swiper-page span {
+    font-size: 0.16rem;
+}
+
+.banner-swiperPaging-device {
+    overflow: hidden;
+    margin: 0.25rem 0.13rem;
+}
+
+.banner-swiperPaging-deviceItem {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.7rem;
+    height: 0.45rem;
+    border: 1px solid #DA3021;
+    outline: none;
+}
+
+.banner-swiperPaging-deviceItem:first-child {
+    margin-right: 0.05rem;
+}
+
+.banner-swiperPaging-deviceItemText {
+    font-size: 0.13rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #DA3021;
+}
+
+.banner-swiperPaging-deviceItemText:first-child {
+    margin-right: 0.1rem;
+    padding-right: 0.2rem;
+    border-right: 1px solid #DA3021;
+}
+
+.banner-swiperPaging-deviceItemText:nth-child(2) {
+    margin-left: 0.1rem;
+    padding-left: 0.2rem;
+    border-left: 1px solid #DA3021;
+}
+
+.banner-swiperPaging-deviceItemImg {
+    width: 0.08rem;
+    height: 0.15rem;
+}
+
+.banner-swiperPaging-deviceItem:hover{
+   background-color: #DA3021;
+}
+
+.banner-swiperPaging-deviceItem:hover .banner-swiperPaging-deviceItemText{
+    color: #fff;
+}
+
+.banner-swiperPaging-devicePrev:hover .banner-swiperPaging-deviceItemImg {
+    content: url('../imgs/left_active_arrow_icon.png');
+}
+
+.banner-swiperPaging-deviceNext:hover .banner-swiperPaging-deviceItemImg {
+    content: url('../imgs/right_active_arrow_icon.png');
+}

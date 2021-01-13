@@ -1,0 +1,172 @@
+.advertising-img {
+    width: 100%;
+}
+
+.contact-info {
+    margin-top: 0.1rem;
+    padding: 0.15rem 0.13rem 0.35rem;
+}
+
+.contact-info-title {
+    padding: 0.15rem 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 0.17rem;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    line-height: 0.11rem;
+    color: #262626;
+}
+
+.contact-info-list {
+    padding: 0.15rem 0;
+}
+
+.contact-info-listItem {
+    display: flex;
+    align-items: center;
+    font-size: 0.14rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #262626;
+}
+
+.contact-info-listItem:nth-child(n + 2) {
+    margin-top: 0.13rem;
+}
+
+.contact-info-listItemIcon {
+    margin-right: 0.1rem;
+    width: 0.22rem;
+}
+
+#allmap {
+	margin-top: 0.15rem;
+	height: 2rem;
+}
+
+.Join-application {
+	overflow: hidden;
+	padding: 0.35rem 0 0;
+	background-image: url(../imgs/750-1096.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.form {
+	margin: 0.2rem 0.23rem 0.5rem;
+	padding: 0.25rem;
+	background-color: rgba(255,255,255,0.9);
+}
+
+.select, .select-2 {
+	position: relative;
+	padding: 0 0.08rem;
+	height: 0.38rem;
+	background-color: #fff;
+	border-radius: 0.08rem;
+}
+
+.select-input {
+	flex: 1;
+	padding-left: 0.02rem;
+	height: 100%;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #262626;
+}
+
+.bottom-arrow-icon {
+	transition: all 200ms linear;
+	width: 0.13rem;
+}
+
+.select:hover .bottom-arrow-icon, .select-2:hover .bottom-arrow-icon {
+	transform: rotate(-180deg);
+}
+
+.select-drop-downList {
+	display: none;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	position: absolute;
+	top: 0.42rem;
+	left: 0;
+	z-index: 9;
+	width: 100%;
+	max-height: 3rem;
+	background-color: #fff;
+	border-radius: 0.08rem;
+}
+
+.select-drop-downListItem {
+	padding: 0 0.1rem;
+	height: 0.38rem;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.38rem;
+	color: rgba(38,38,38, 0.6);
+}
+
+.select:hover .select-drop-downList{
+	display: block;
+}
+
+.select-2:hover .select-drop-downList{
+	display: block;
+}
+
+.form-cell {
+	margin-top: 0.1rem;
+}
+
+
+.select-2{
+	box-sizing: border-box;
+	width: 1.35rem;
+}
+
+.select-2 .select-input {
+	width: 1.06rem;
+}
+
+.form-input {
+	margin-top: 0.1rem;
+	padding: 0 0.1rem;
+	box-sizing: border-box;
+	width: 100%;
+	height: 0.38rem;
+	background-color: #fff;
+	border-radius: 0.08rem;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #262626;
+}
+
+.form-input::placeholder, .form-textarea::placeholder {
+	color: #999;
+}
+
+.form-textareaBox {
+	margin-top: 0.1rem;
+	padding: 0.14rem 0.1rem;
+	background-color: #fff;
+	border-radius: 0.08rem;
+}
+
+.form-textarea {
+	width: 100%;
+	height: 0.72rem;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #262626;
+}
+
+.form-submit-btn {
+	margin-top: 0.15rem;
+}
+

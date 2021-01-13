@@ -1,0 +1,777 @@
+.advertising-img {
+    width: 100%;
+}
+
+.preponderance {
+	overflow: hidden;
+	padding: 0.35rem 0;
+}
+
+.preponderance-list {
+	overflow: hidden;
+	margin: 0.14rem 0.05rem 0;
+}
+
+.preponderance-list-item {
+	float: left;
+	box-sizing: border-box;
+	padding: 0.24rem 0.15rem;
+	width: 50%;
+	background-image: url(../imgs/preponderance_item_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+
+.preponderance-list-itemImg {
+	width: 0.5rem;
+	height: 0.5rem;
+}
+
+.preponderance-list-itemTitle {
+	position: relative;
+	margin-top: 0.18rem;
+	padding-bottom: 0.1rem;
+	font-size: 0.15rem;
+	font-family: Source Han Sans CN;
+	font-weight: 700;
+	line-height: 0.18rem;
+	color: #262626;
+}
+
+.preponderance-list-itemTitle::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0.25rem;
+	height: 0.01rem;
+	background-color: #262626;
+}
+
+.preponderance-list-itemText {
+	margin-top: 0.1rem;
+	font-size: 0.11rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.19rem;
+	color: #999;
+}
+
+.contact-info {
+	padding: 0.25rem 0.1rem;
+	background-image: url(../imgs/contact_info_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+
+.contact-info-title {
+	font-size: 0.24rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	color: #fff;
+}
+
+.contact-info-text {
+	margin-top: 0.06rem;
+	font-size: 0.1rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.17rem;
+	color: #fff;
+}
+
+.contact-info-btn, .Joining-process-getBtn {
+	width: 2rem;
+	height: 0.35rem;
+	border: 1px solid #fff;
+	border-radius: 0.175rem;
+	font-size: 0.16rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	line-height: 0.35rem;
+	color: #fff;
+}
+
+.contact-info-btn {
+	margin-top: 0.16rem;
+}
+
+.contact-info-icon {
+	margin-right: 0.1rem;
+	position: relative;
+	top: 0.02rem;
+	width: 0.18rem;
+}
+
+.support {
+	padding: 0.35rem 0 0.26rem;
+}
+
+.support-nav {
+	margin-top: 0.2rem;
+}
+
+.support-nav-item {
+	width: 1.25rem;
+	height: 0.35rem;
+	border: 1px solid #ccc;
+	border-radius: 0.04rem;
+	font-size: 0.14rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.35rem;
+	text-align: center;
+	color: #262626;
+}
+
+.support-nav-item:first-child {
+	margin-right: 0.4rem;
+}
+
+.support-nav-item_active {
+	border-color: #DA3021;
+	background-color: #DA3021;
+	color: #fff;
+}
+
+.support_ad-imgBox {
+	margin-top: 0.2rem;
+	padding: 0 0.13rem;
+}
+
+.support_ad-img {
+	width: 100%;
+}
+
+.support_guidance {
+	margin-top: 0.25rem;
+}
+
+.support_guidance-title, .support_guidance-title-2 {
+	font-size: 0.18rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	line-height: 0.22rem;
+	text-align: center;
+	color: #262626;
+}
+
+.support_guidance-services {
+	margin-top: 0.44rem;
+}
+
+.support_guidance-servicesItem {
+	float: left;
+	box-sizing: border-box;
+	padding: 0 0.2rem;
+	width: 50%;
+	height: 1.7rem;
+	background-image: url(../imgs/340-310@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+
+.support_guidance-servicesItemIcon{
+	margin: auto;
+	margin-top: -0.375rem;
+	width: 0.75rem;
+	height: 0.75rem;
+	background-image: url(../imgs/120-120@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.support_guidance-servicesItemIcon img, .support_guidance-servicesCellIcon img {
+	width: 0.3rem;
+}
+
+.support_guidance-servicesItemTitle {
+	position: relative;
+	margin-top: 0.11rem;
+	padding-bottom: 0.1rem;
+	font-size: 0.15rem;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	line-height: 0.18rem;
+	color: #262626;
+}
+
+.support_guidance-servicesItemTitle::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0.25rem;
+	height: 0.01rem;
+	background-color: #262626;
+}
+
+.support_guidance-servicesItemText {
+	margin-top: 0.1rem;
+	font-size: 0.11rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.19rem;
+	color: #999;
+}
+
+.support_guidance-title-2 {
+	margin-top: 0.16rem;
+}
+
+.support_guidance-servicesCell {
+	margin: 0.14rem 0.05rem 0;
+	padding: 0.2rem;
+	height: 0.75rem;
+	background-image: url(../imgs/700-200@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.support_guidance-servicesCellIcon {
+	width: 0.75rem;
+	height: 0.75rem;
+	background-image: url(../imgs/120-120@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-size: 0;
+}
+
+.support_guidance-servicesCellInfo {
+	flex: 1;
+	margin-left: 0.1rem;
+	padding-left: 0.1rem;
+	border-left: 1px solid #262626;
+}
+
+.support_guidance-servicesCellInfoTitle {
+	font-size: 0.15rem;
+	font-family: Source Han Sans CN;
+	font-weight: 700;
+	line-height: 0.18rem;
+	color: #262626;
+}
+
+.support_guidance-servicesCellInfoText {
+	margin-top: 0.13rem;
+	font-size: 0.11rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #999999;
+}
+
+.support_profit {
+	margin-top: 0.25rem;
+	padding: 0 0.13rem 0.16rem;
+}
+
+.support_profit-title, .support_profit-title-2 {
+	font-size: 0.18rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	color: #262626;
+	text-align: center;
+}
+
+.support_profit-list {
+	overflow: hidden;
+	padding-top: 0.34rem;
+	font-size: 0;
+}
+
+.support_profit-listItem {
+	float: left;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 0.29rem;
+	margin-right: 0.0602rem;
+	padding: 0 0.1rem;
+	width: 0.9rem;
+	height: 1.5rem;
+	border: 1px solid #E6E6E6;
+	border-radius: 0.08rem;
+}
+
+.support_profit-listItem:nth-child(3n + 3), .support_profit-listItem-2:nth-child(3n + 3) {
+	margin-right: 0;
+}
+
+.support_profit-header {
+	position: absolute;
+	top: -0.21rem;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 1.05rem;
+	height: 0.42rem;
+	background-image: url(../imgs/180-54@2x.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+}
+
+.support_profit-header-title, .support_profit-header-title-2 {
+	font-family: Source Han Sans CN;
+	font-weight: 700;
+	text-align: center;
+	color: #DA3021;
+}
+
+.support_profit-header-title {
+	margin: 0.1rem;
+	font-size: 0.13rem;
+}
+
+ .support_profit-header-title-2 {
+	margin: 0.11rem 0.06rem;
+	font-size: 0.1rem;
+ }
+
+.support_profit-listItemTitle {
+	position: relative;
+	margin-top: 0.24rem;
+	padding-bottom: 0.1rem;
+	font-size: 0.1rem;
+	font-family: Source Han Sans CN;
+	font-weight: 500;
+	text-align: center;
+	color: #262626;
+}
+
+.support_profit-listItemTitle::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0.25rem;
+	height: 0.01rem;
+	background-color: #262626;
+}
+
+.support_profit-listItemText {
+	overflow: hidden;
+	margin-top: 0.1rem;
+	max-height: 0.77rem;
+	font-size: 0.09rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.16rem;
+	color: #262626;
+}
+
+.support_profit-title-2 {
+	margin-top: 0.25rem;
+}
+
+.support_profit-listItem-2 {
+	float: left;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 0.29rem;
+	margin-right: 0.0602rem;
+	padding: 0 0.1rem;
+	width: 0.9rem;
+	height: 1rem;
+	border: 1px solid #E6E6E6;
+	border-radius: 0.08rem;
+}
+
+.support_profit-listItemText-2 {
+	overflow: hidden;
+	margin-top: 0.26rem;
+	max-height: 0.61rem;
+	font-size: 0.09rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.16rem;
+	color: #262626;
+}
+
+.condition {
+	overflow: hidden;
+	padding: 0.35rem 0.13rem;
+	background-color: #F7F7F7;
+}
+
+.condition-listBox {
+	margin-top: 0.2rem;
+}
+
+.condition_list-ad-img {
+	margin-bottom: 0.05rem;
+	width: 100%;
+	background-color: #fff;
+}
+
+.condition-list {
+	padding: 0.2rem 0.15rem 0.25rem;
+	background-color: #fff;
+	font-size: 0;
+}
+
+.condition-list-item:nth-child(n + 2) {
+	margin-top: 0.15rem;
+}
+
+.condition-list-itemTitle {
+	display: inline-block;
+	padding: 0 0.14rem;
+	background-color: #DA3021;
+	font-size: 0.13rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	line-height: 0.22rem;
+	color: #fff;
+}
+
+.condition-list-itemText {
+	margin-top: 0.1rem;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #262626;
+}
+
+.condition-hint {
+	margin-top: 0.2rem;
+}
+
+.condition-hint span {
+	float: left;
+	font-size: 0.1rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	line-height: 0.17rem;
+	color: #DA3021;
+}
+
+.condition-hint p {
+	float: left;
+	margin-left: 0.03rem;
+	width: 3.37rem;
+	font-size: 0.1rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.18rem;
+	color: #999;
+}
+
+.Joining-process {
+	padding: 0.35rem 0.13rem;
+	background-image: url(../imgs/750-1570.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.Joining-process-list {
+	overflow: hidden;
+	margin-top: 0.2rem;
+}
+
+.Joining-process-listItem {
+	float: left;
+	padding: 0.16rem 0.13rem;
+	width: 1.44rem;
+	height: 1.28rem;
+	background-color: #fff;
+	border-radius: 0.1rem;
+}
+
+.Joining-process-listItem:nth-child(2n + 2) {
+	margin-left: 0.09rem;
+}
+
+.Joining-process-listItem:nth-child(n + 3) {
+	margin-top: 0.09rem;
+}
+
+.Joining-process-listItemNum {
+	font-size: 0.3rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	color: #DA3021;
+}
+
+.Joining-process-listItemTitle {
+	position: relative;
+	padding-bottom: 0.25rem;
+	font-size: 0.14rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	color: #262626;
+}
+
+.Joining-process-listItemTitle::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0.25rem;
+	height: 0.01rem;
+	background-color: #262626;
+}
+
+.Joining-process-listItemText, .Joining-process-listItemCellText {
+	margin-top: 0.1rem;
+	font-size: 0.1rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #262626;
+}
+
+.Joining-process-listItemText {
+	text-align: center;
+}
+
+.Joining-process-listItemCell {
+	float: left;
+	margin-top: 0.1rem;
+	padding: 0.18rem;
+	background-color: #fff;
+	border-radius: 0.1rem;
+}
+
+.Joining-process-listItemCellInfo {
+	margin-left: 0.24rem;
+	padding-left: 0.18rem;
+	border-left: 1px solid #262626;
+}
+
+.Joining-process-listItemCellTitle {
+	font-size: 0.14rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	color: #262626;
+}
+
+.Joining-process-get {
+	margin-top: 0.35rem;
+}
+
+.Joining-process-getTitle {
+	font-size: 0.18rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+}
+
+.Joining-process-getBtnBox {
+	margin: 0.15rem 0.07rem 0;
+}
+
+.Joining-process-getBtn_line {
+	flex: 1;
+	height: 0.01rem;
+	background-color: #fff;
+}
+
+.Joining-process-getBtn {
+	margin: 0 0.18rem;
+}
+
+.analyse {
+	overflow: hidden;
+	padding: 0.35rem 0;
+}
+
+.analyse-img {
+	margin: 0.2rem 0 0 0.13rem;
+	width: 3.51rem;
+}
+
+.analyse-list {
+	margin: 0.2rem 0.13rem 0;
+}
+
+.analyse-list-item {
+	font-size: 0.1rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.18rem;
+	color: #999;
+}
+
+.analyse-list-item:nth-child(n + 2) {
+	margin-top: 0.1rem;
+}
+
+.analyse-list-item span {
+	margin-right: 0.03rem;
+	font-size: 0.1rem;
+	font-family: Source Han Sans CN;
+	font-weight: bold;
+	line-height: 0.17rem;
+	color: #DA3021;
+}
+
+.Join-application {
+	overflow: hidden;
+	padding: 0.35rem 0 0;
+	background-image: url(../imgs/750-1096.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.form {
+	margin: 0.2rem 0.23rem 0.5rem;
+	padding: 0.25rem;
+	background-color: rgba(255,255,255,0.9);
+}
+
+.select, .select-2 {
+	position: relative;
+	padding: 0 0.08rem;
+	height: 0.38rem;
+	background-color: #fff;
+	border-radius: 0.08rem;
+}
+
+.select-input {
+	flex: 1;
+	padding-left: 0.02rem;
+	height: 100%;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #262626;
+}
+
+.bottom-arrow-icon {
+	transition: all 200ms linear;
+	width: 0.13rem;
+}
+
+.select:hover .bottom-arrow-icon, .select-2:hover .bottom-arrow-icon {
+	transform: rotate(-180deg);
+}
+
+.select-drop-downList {
+	display: none;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	position: absolute;
+	top: 0.42rem;
+	left: 0;
+	z-index: 9;
+	width: 100%;
+	max-height: 3rem;
+	background-color: #fff;
+	border-radius: 0.08rem;
+}
+
+.select-drop-downListItem {
+	padding: 0 0.1rem;
+	height: 0.38rem;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.38rem;
+	color: rgba(38,38,38, 0.6);
+}
+
+.select:hover .select-drop-downList{
+	display: block;
+}
+
+.select-2:hover .select-drop-downList{
+	display: block;
+}
+
+.form-cell {
+	margin-top: 0.1rem;
+}
+
+
+.select-2{
+	box-sizing: border-box;
+	width: 1.35rem;
+}
+
+.select-2 .select-input {
+	width: 1.06rem;
+}
+
+.form-input {
+	margin-top: 0.1rem;
+	padding: 0 0.1rem;
+	box-sizing: border-box;
+	width: 100%;
+	height: 0.38rem;
+	background-color: #fff;
+	border-radius: 0.08rem;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #262626;
+}
+
+.form-input::placeholder, .form-textarea::placeholder {
+	color: #999;
+}
+
+.form-textareaBox {
+	margin-top: 0.1rem;
+	padding: 0.14rem 0.1rem;
+	background-color: #fff;
+	border-radius: 0.08rem;
+}
+
+.form-textarea {
+	width: 100%;
+	height: 0.72rem;
+	font-size: 0.12rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #262626;
+}
+
+.form-submit-btn {
+	margin-top: 0.15rem;
+}
+
+.consult {
+	margin-top: 0.5rem;
+	padding: 0.07rem 0.2rem;
+	background-color: rgba(0,0,0,0.65);
+}
+
+.consult-btn {
+	width: 1.6rem;
+	height: 0.35rem;
+	border-radius: 0.05rem;
+	font-size: 0.13rem;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	line-height: 0.35rem;
+	text-align: center;
+}
+
+.consult-btn_1 {
+	background-color: #fff;
+	color: #DA3021;
+}
+
+.consult-btn_2 {
+	background-color: #DA3021;
+	color: #fff;
+}
