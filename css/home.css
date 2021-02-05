@@ -333,3 +333,16 @@
     line-height: 0.25rem;
     color: #666666;
 }
+
+/* 公司优势 */
+.company-advantage {
+    padding: 0.7rem 0.1rem;
+    background-image: url(../imgs/750-991_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.company-advantage-list {
+    overflow: hidden;
+    margin-top: 0.28rem;
+}
